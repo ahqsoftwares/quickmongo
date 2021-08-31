@@ -20,7 +20,7 @@ Quick mongodb wrapper for beginners.
 # Quick Example
 
 ```js
-const { Db } = require("quickmongo");
+const { DB } = require("quickmongo");
 const db = new DB("mongodb://localhost/quickmongo");
 
 db.on("ready", () => {
