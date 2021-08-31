@@ -20,8 +20,8 @@ Quick mongodb wrapper for beginners.
 # Quick Example
 
 ```js
-const { Database } = require("quickmongo");
-const db = new Database("mongodb://localhost/quickmongo");
+const { Db } = require("quickmongo");
+const db = new DB("mongodb://localhost/quickmongo");
 
 db.on("ready", () => {
     console.log("Database connected!");
@@ -36,8 +36,8 @@ db.get("foo").then(console.log);
 
 ```js
 const db = require("quick.db");
-const { Database } = require("quickmongo");
-const mongo = new Database("mongodb://localhost/quickmongo");
+const { DB } = require("quickmongo");
+const mongo = new DB("mongodb://localhost/quickmongo");
 
 function importData() {
     const data = db.all();
@@ -57,8 +57,8 @@ mongo.on("ready", () => importData());
 # Example
 
 ```js
-const { Database } = require("quickmongo");
-const db = new Database("mongodb://localhost/quickmongo");
+const { DB } = require("quickmongo");
+const db = new DB("mongodb://localhost/quickmongo");
 
 // Setting an object in the database:
 db.set("userInfo", { difficulty: "Easy" }).then(console.log);
