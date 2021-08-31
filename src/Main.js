@@ -661,4 +661,4 @@ class Database extends Base {
 
 }
 
-module.exports = Database;
+module.exports = DB;
