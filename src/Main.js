@@ -7,7 +7,7 @@ const Util = require("./Util");
 /**
  * Quick mongodb wrapper
  */
-class Database extends Base {
+class DB extends Base {
 
     /**
      * Creates quickmongo instance
