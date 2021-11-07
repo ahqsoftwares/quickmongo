@@ -1,6 +1,6 @@
-import QuickMongo from "../index.js";
+import mongquick from "../index.js";
 
-export default QuickMongo;
+export default mongquick;
 export const {
     Base,
     Database,
@@ -8,4 +8,4 @@ export const {
     Schema,
     Util,
     version
-} = QuickMongo;
+} = mongquick;

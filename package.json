@@ -1,7 +1,7 @@
 {
-  "name": "quickmongo",
-  "version": "3.0.2",
-  "description": "Quick mongodb wrapper for beginners.",
+  "name": "mongquick",
+  "version": "0.0.1",
+  "description": "Quick mongodb wrapper for beginners. (FORKED FOR PERSONAL USE)",
   "main": "index.js",
   "types": "typings/index.d.ts",
   "exports": {
