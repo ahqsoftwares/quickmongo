@@ -1,5 +1,6 @@
 # QuickMongo
 Quick mongodb wrapper for beginners.
+Fork of snowflakeDEV quickmongo and simplified
 
 ![QuickMongo](https://nodei.co/npm/quickmongo.png)
 
@@ -20,7 +21,7 @@ Quick mongodb wrapper for beginners.
 # Quick Example
 
 ```js
-const { Database } = require("quickmongo");
+const { Database } = require("mongquick");
 const db = new Database("mongodb://localhost/quickmongo");
 
 db.on("ready", () => {
